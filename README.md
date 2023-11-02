@@ -5,7 +5,7 @@
 ＊©2023 Kota Yoshiba
 
 # plusコマンド
-![test](http://github.com/Kotayoshiba/robosys2023/action/workflows/test.yml/badge.svg)
+![test](http://github.com/ishida777/robosys2023/action/workflows/test.yml/badge.svg)
 
 ## 必要なソフトウェア
 ＊Python
