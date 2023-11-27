@@ -1,6 +1,6 @@
 #!/bin/bash -xv
 # SPDX-FileCopyrightText: 2022 Ryuichi Ueda
-# SPDX-Locense-Identifier: BSD-3-Clause
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng () {
 	echo NG at Line $1
@@ -11,7 +11,16 @@ res=0
 
 ### I/O TEST ###
 out=$(seq 5 | ./plus)
-[ "${out}" = 14 ] || ng ${LINED}
+[ "${out}" = 15 ] || ng ${LINED}
 
-[ "$res" = 0] && echo OK
+### STRANGE INPUT ###
+out=$(echo あ | ./plus)
+[ "$?" = 1 ]      || ng ${LINED}
+[ "${out}" = "" ] || ng ${LINED}
+
+out=$(echo | ./plus) #空文字
+[ "$?" = 1 ]      || ng ${LINED}
+[ "${out}" = "" ] || ng ${LINED}
+
+["$res" = 0 ] && echo OK
 exit $res
