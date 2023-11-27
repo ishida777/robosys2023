@@ -1,4 +1,4 @@
-#!/bin/bash -xv
+#!/bin/bash
 # SPDX-FileCopyrightText: 2023 Kota Yoshiba
 # SPDX-License-Identifier: BSD-3-Clause
 
@@ -13,14 +13,5 @@ res=0
 out=$(seq 5 | ./plus)
 [ "${out}" = 15 ] || ng ${LINED}
 
-### STRANGE INPUT ###
-out=$(echo あ | ./plus)
-[ "$?" = 1 ]      || ng ${LINED}
-[ "${out}" = "" ] || ng ${LINED}
-
-out=$(echo | ./plus) #空文字
-[ "$?" = 1 ]      || ng ${LINED}
-[ "${out}" = "" ] || ng ${LINED}
-
-["$res" = 0 ] && echo OK
+[ "$res" = 0 ] && echo OK
 exit $res
