@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bash -xv
 # SPDX-FileCopyrightText: 2022 Ryuichi Ueda
 # SPDX-Licenese-Identifier: BSD-3-Clause
 
@@ -23,4 +23,4 @@ out=$(seq 5 | ./plus)
 + echo OK
 OK
 exit $res
-+exit 0
++ exit 0
