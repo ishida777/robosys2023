@@ -5,7 +5,7 @@
 ## ライセンス
 ＊このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布および使用が許可されます。
 ＊このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-      * [ryuichiueda/my_slides robosys_2022](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2022)
+      * [ryuichiueda/my_slides robosys_2023](https://github.com/ryuichiueda/my_slides/tree/master/robosys_2023)
 ＊©2023 Kota Yoshiba
 
 ## plusコマンド
@@ -16,6 +16,11 @@
 $ seq 10 | ./plus
 55
 ```
+
+## コマンド使用までの手順
+下記のコードをホームディレクトリでクローンすることで利用できます。
+git@github.com:ishida777/robosys2023.giti
+
 
 ![test](https://github.com/ishida777/robosys2023/actions/workflows/test.yml/badge.svg)
 
