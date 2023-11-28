@@ -1,0 +1,10 @@
+#!/bin/python3
+# SPDX-FileCopyrightText: 2022 Ryuichi Ueda
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+print("西暦", argv)
+print("月", argv)
+print("日", argv)
+
