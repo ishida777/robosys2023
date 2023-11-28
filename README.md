@@ -24,6 +24,6 @@ $ seq 10 | ./plus
   ＊　テスト済み: 3.7~3.10
 
 ## テスト環境
-＊Ubuntu
+＊ Ubuntu on Windows
 
 @2023 KotaYoshiba
