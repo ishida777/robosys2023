@@ -12,10 +12,10 @@
 標準入力から読み込んだ数値を足す
 
 ## 使用方法
-'''bash
+```bash
 $ seq 10 | ./plus
 55
-'''
+```
 
 ![test](https://github.com/ishida777/robosys2023/actions/workflows/test.yml/badge.svg)
 
