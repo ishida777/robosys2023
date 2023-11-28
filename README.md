@@ -20,9 +20,13 @@ $ seq 10 | ./plus
 この場合、1から10までの数字の合計を表示します。
 
 ## コマンド使用までの手順
-下記のコードをホームディレクトリでクローンすることで利用できます。
-git@github.com:ishida777/robosys2023.giti
-
+下記を順に実行してください
+```bash
+git clone git@github.com:ishida777/robosys2023.giti
+```
+```bash
+cd robosys2023
+```
 
 ## 動作環境
 ### 必要なソフトウェア
