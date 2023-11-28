@@ -4,7 +4,8 @@
 
 import sys
 
-print("西暦", argv)
-print("月", argv)
-print("日", argv)
-
+if len(sys.argv) > 1:
+    user_input = ' '.join(sys.argv[1:])
+    print("入力された文字:",user_input)
+else:
+    print("引数がない")
