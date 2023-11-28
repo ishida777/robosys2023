@@ -10,7 +10,7 @@
 ![test](https://github.com/ishida777/robosys2023/actions/workflows/test.yml/badge.svg)
 
 ## plusコマンド
-標準入力から読み込んだ数値を足す
+標準入力から読み込んだ数値を足して出力します。
 
 ## 使用方法
 ```bash
@@ -22,7 +22,7 @@ $ seq 10 | ./plus
 ## コマンド使用までの手順
 下記を順に実行してください
 ```bash
-git clone git@github.com:ishida777/robosys2023.giti
+git clone git@github.com:ishida777/robosys2023.git
 ```
 ```bash
 cd robosys2023
