@@ -4,8 +4,11 @@
 
 ## ライセンス
 ＊このソフトウェアパッケージは、三条項BSDライセンスの下、再頒布および使用が許可されます。
+
 ＊このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
-    ＊(https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/20)
+
+＊(https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/20)
+
 ＊©2023 Kota Yoshiba
 ![test](https://github.com/ishida777/robosys2023/actions/workflows/test.yml/badge.svg)
 
