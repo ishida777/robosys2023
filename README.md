@@ -10,7 +10,7 @@
 ## コマンド使用までの手順
 下記を順に実行してください
 ```bash
-git clone git@github.com:ishida777/robosys2023.git
+https://github.com/ishida777/robosys2023.git
 ```
 ```bash
 cd robosys2023
@@ -36,6 +36,6 @@ $ seq 10 | ./plus
 
 *このパッケージのコードは，下記のスライド（CC-BY-SA 4.0 by Ryuichi Ueda）のものを，本人の許可を得て自身の著作としたものです．
 
-*(https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/20)
+*[ryuichiueda/my_slide/robosys_2022](https://ryuichiueda.github.io/my_slides/robosys_2022/lesson4.html#/20)
 
 @2023 KotaYoshiba
