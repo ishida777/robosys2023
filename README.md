@@ -10,7 +10,7 @@
 ## コマンド使用までの手順
 下記を順に実行してください
 ```bash
-https://github.com/ishida777/robosys2023.git
+git clone https://github.com/ishida777/robosys2023.git
 ```
 ```bash
 cd robosys2023
